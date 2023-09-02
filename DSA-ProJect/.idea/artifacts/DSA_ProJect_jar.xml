@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DSA-ProJect:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DSA_ProJect_jar</output-path>
+    <root id="archive" name="DSA-ProJect.jar">
+      <element id="module-output" name="DSA-ProJect" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../usefull/iu/DSA-ProJect/jsoup-1.14.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

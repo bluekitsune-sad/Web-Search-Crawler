@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en"> 
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <link rel="stylesheet" type="text/css" href="https://iulms.edu.pk/theme/standard/styles.php"> 
+  <link rel="stylesheet" type="text/css" href="https://iulms.edu.pk/theme/Iqra_Ver2/styles.php"> <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="https://iulms.edu.pk/theme/standard/styles_ie7.css" />
+<![endif]--> <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="https://iulms.edu.pk/theme/standard/styles_ie6.css" />
+<![endif]--> <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://moodle.org/theme/moodle2/styles_ie7.css" />
+<![endif]--> <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://moodle.org/theme/moodle2/styles_ie6.css" />
+<![endif]--> 
+  <meta name="keywords" content="moodle, Help "> 
+  <meta name="sth-site-verification" content="2ec4691f53c4209df9b8e4022eab69ac"> 
+  <title>Help</title> 
+  <link rel="shortcut icon" href="https://iulms.edu.pk/theme/Iqra_Ver2/favicon.ico"> 
+  <link rel="stylesheet" type="text/css" href="https://iulms.edu.pk/theme/Iqra_Ver2/dolphinmenu/style.css"> <!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(https://iulms.edu.pk/lib/csshover.htc);} /*]]>*/</style>--> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/javascript-static.js"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/javascript-mod.php"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/overlib/overlib.js"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/overlib/overlib_cssstyle.js"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/cookies.js"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/ufo.js"></script> 
+  <script type="text/javascript" src="https://iulms.edu.pk/lib/dropdown.js"></script> 
+  <script type="text/javascript" defer>
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script> 
+  <script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "https://iulms.edu.pk" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script> 
+  <script src="https://iulms.edu.pk/js/jquery-1.3.2.min.js" type="text/javascript" language="javascript"></script> 
+  <script type="text/javascript" language="javascript">
+        var winFF=null;
+        function NewWindow(mypage,myname,w,h,scroll,pos){
+            if(pos=="random"){LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+            if(pos=="center"){LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+            else if((pos!="center" && pos!="random") || pos==null){LeftPosition=0;TopPosition=20}
+            settings='width='+w+',height='+h+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
+            winFF=window.open(mypage,myname,settings);
+        }
+    </script> 
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("ul.subnav").parent().append("<span></span>"); //Only shows drop down trigger when js is enabled - Adds empty span tag after ul.subnav      
+        $("ul.topnav li span").click(function() { //When trigger is clicked...
+            
+            //Following events are applied to the subnav itself (moving subnav up and down)
+            $(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+            $(this).parent().hover(function() {
+            }, function(){    
+                $(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+            });
+
+            //Following events are applied to the trigger (Hover events for the trigger)
+            }).hover(function() { 
+                $(this).addClass("subhover"); //On hover over, add class "subhover"
+            }, function(){    //On Hover Out
+                $(this).removeClass("subhover"); //On hover out, remove class "subhover"
+        });
+
+    });
+        $(document).ready(function(){
+            $("input[type=button]").add("input[type=submit]").add("button").add("input[type=reset]").addClass("btn-skin-blue");
+        });
+    </script> 
+ </head> 
+ <body class=" course-1 notloggedin dir-ltr lang-en_utf8" id="help"> 
+  <div id="page"> 
+   <div id="no-header-wrapper"> <!-- END OF HEADER --> 
+    <div id="content" class="wrap wraplevel1 "> 
+     <div id="content-bt" class="bt">
+      <div>
+       &nbsp;
+      </div>
+     </div> 
+     <div id="content-i1" class="i1">
+      <div id="content-i2" class="i2">
+       <div id="content-i3" class="i3"> 
+        <div class="box generalbox generalboxcontent">
+         <h1>Cookies</h1> 
+         <p>Two cookies are used by this site.</p> 
+         <p>The essential one is the session cookie, usually called <b>MoodleSession</b>. You must allow this cookie into your browser to provide continuity and maintain your login from page to page. When you log out or close the browser this cookie is destroyed (in your browser and on the server).</p> 
+         <p>The other cookie is purely for convenience, usually called something like <b>MOODLEID</b>. It just remembers your username within the browser. This means when you return to this site the username field on the login page will be already filled out for you. It is safe to refuse this cookie - you will just have to retype your username every time you log in.</p> 
+        </div>
+        <div class="closewindow"> 
+         <form action="#">
+          <div>
+           <input type="button" onclick="self.close();" value="Close this window">
+          </div>
+         </form>
+        </div> 
+        <p class="helpindex"><a href="help.php?file=index.html">Index of all help files</a></p> 
+       </div>
+      </div>
+     </div> 
+     <div id="content-bb" class="bb">
+      <div>
+       &nbsp;
+      </div>
+     </div> 
+    </div>
+    <div id="footer" class="wrap wraplevel1 "> 
+     <div id="footer-bt" class="bt">
+      <div>
+       &nbsp;
+      </div>
+     </div> 
+     <div id="footer-i1" class="i1">
+      <div id="footer-i2" class="i2">
+       <div id="footer-i3" class="i3 clearfix">
+        <span class="helplink" style="color:#FFF">© 2009-2023. All Rights Reserved By IQRA University, Karachi.</span>
+        <div id="bottomleft">
+         &nbsp;
+        </div>
+        <div id="bottomright">
+         &nbsp;
+        </div> 
+       </div> 
+       <script type="text/javascript">
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73753517-1', 'auto');
+  ga('send', 'pageview');
+
+</script> <!--<p>18</p><strong></strong>-->  
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
