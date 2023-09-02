@@ -20,41 +20,47 @@ These instructions will help you get a copy of the project up and running on you
 
 ## Installation
 
-First Clone the repository to your local machine using the following command:
+- First Clone the repository to your local machine using the following command.
   
-##bash Commands
+## bash Commands
 ```
 git clone https://github.com/your-username/Web-Search-Crawler.git
 ```
 
-##Navigate to the project directory:
+## Navigate to the project directory:
 ```
 cd Web-Search-Crawler
 ```
 
-##Compile and run the application:
+## Compile and run the application:
 ```
 javac Main.java
 java Main
 ```
 
-##Alternatively, you can use Maven (if installed) to compile and run the project:
+## Alternatively, you can use Maven (if installed) to compile and run the project:
 ```
 mvn compile
 mvn exec:java -Dexec.mainClass="Main"
 ```
 
-##if using intelliji:
+## If using intelliji:
 
 Just open the folder init and run the mainrunner;
 
-##Launch the application.
+## Launch the application.
 
 Enter a search query and specify the websites to crawl.
 Click the "Search" button to initiate the crawling process.
 Review the search results, which will sort the data content(result of the search webside).
 
-#Contributing
+## Dependances Used:
+
+-Jsoup
+
+=JDK
+
+# Contributing
 
 If you'd like to contribute to this project, please follow these guidelines:
 
@@ -64,7 +70,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 4.Push your changes to your fork.
 5.Create a pull request to the original repository, explaining the changes and their purpose.
 
-##Dependances Used:
 
--Jsoup
-=jdk
