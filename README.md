@@ -1,6 +1,6 @@
 # Web Search Crawler
 
-Web Search Crawler is a versatile web crawling application with various functionalities, including page ranking, spell checking, and providing suggestions. It features an intuitive user interface built using Java Swing.
+Web Search Crawler is a versatile web crawling application with various functionalities, including page ranking, spell checking, and providing suggestions. It features an intuitive user interface built using Java Swing. This is filled with many DSA concepts as it contains for example sorting algorithms, trees, etc.
 
 ## Features
 
