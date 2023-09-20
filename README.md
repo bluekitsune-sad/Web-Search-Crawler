@@ -76,6 +76,6 @@ If you'd like to contribute to this project, please follow these guidelines:
 5.Create a pull request to the original repository, explaining the changes and their purpose.
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer"/>
 </p>
 
