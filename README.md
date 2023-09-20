@@ -75,7 +75,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 4.Push your changes to your fork.
 5.Create a pull request to the original repository, explaining the changes and their purpose.
 
-<p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer"/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
 
